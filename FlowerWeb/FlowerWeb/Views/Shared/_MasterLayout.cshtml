@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/mystyle.css" />
+</head>
+<body>
+    <div class="header">
+        <div class="header-ser">
+            <div id="left">
+                <img id="logo" src="~/images/logo.png" />
+                <div id="search">
+                    <input class="search-bar" type="text" name="search" />                    
+                </div>
+            </div>
+            <div id="right">
+                    <table>
+                        <tr>
+                            <td>Liên Hệ</td>
+                            <td>Đăng Ký</td>
+                            <td>Đăng Nhập</td>
+                            <td><img src="~/images/🦆 icon _shopping cart_.png"/></td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+        <div class="header-nav">
+            <table>
+                <tr>
+                    <td>Hoa Theo Ngày</td>
+                    <td>Hoa Theo Mùa</td>
+                    <td><img src="~/images/🦆 icon _arrow down _.png" /></td>
+                    <td>Hoa Theo Dịp</td>
+                    <td><img src="~/images/🦆 icon _arrow down _.png" /></td>
+                    <td>Hoa Theo Giá</td>
+                    <td><img src="~/images/🦆 icon _arrow down _.png" /></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="body">
+            @RenderBody()
+    </div>
+    <div class="footer">
+        Footer
+    </div>
+</body>
+</html>

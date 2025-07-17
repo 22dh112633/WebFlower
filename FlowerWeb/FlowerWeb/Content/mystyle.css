@@ -1,0 +1,112 @@
+﻿
+body {
+    margin: 0;
+    background-color: #FAF4EB;
+    border-radius:15px;
+}
+
+/* Header */
+.header {
+    height: 20%;
+    width: 100%;
+    background-color: #F7E6CE;
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+.header-ser {
+    height: 15%;
+    width: 70%;
+    background-color: #F7E6CE;
+    margin: 0 15%;
+    display: flex;
+}
+/*left-header-ser*/
+#left {
+    height: 15%;
+    width: 70%;
+    margin: 0;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-left:10%;
+    margin-right:5%;
+}
+#search {
+    height: 40%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #FAF4EB;
+    background: url('../images/🦆 icon _search_.png') no-repeat right;
+    background-size:7%;
+    margin-left: 0;
+    padding-right: 15%;
+}
+.icon{
+}
+/*right-header-ser*/
+#right {
+    height: 100px;
+    width: 30%;
+    margin: 0;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    height: 5%;
+    width: 40%;
+    margin: 0 15%;
+    align-items: center;
+}
+
+/*body*/
+.body {
+    height: auto;
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .body {
+        width: 100%;
+    }
+}
+
+/*Footer*/
+.footer {
+    background-color: #000000;
+    color: #ffd800;
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+    clear: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+table {
+    border-spacing: 10px;
+    height: auto;
+    width: 80%;
+    margin: 0 10%;
+    padding: 0 10%;
+}
+
+td {
+    text-align: center;
+}
